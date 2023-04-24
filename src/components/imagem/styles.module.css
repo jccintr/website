@@ -1,0 +1,51 @@
+.container {
+    display: flex;
+    width: 100%;
+   
+   align-items: center;
+   justify-content:space-evenly;
+   background-color:blueviolet;
+   padding-top: 10px;
+}
+
+img {
+   
+    height: 600px;
+}
+.left {
+    width: 40%;
+    min-width: 40%;
+   
+
+}
+
+.title {
+    font-size: 24px;
+    margin-bottom: 1rem;
+    font-weight: bolder;
+}
+
+.frase {
+    color: white;
+    font-size: 60px;
+    margin-right: 1rem;
+}
+
+@media screen and (max-width:780px){
+
+
+    .title {
+        font-size: 14px;
+        
+    }
+    
+    .frase {
+        font-size: 20px;
+       
+    }
+
+    img {
+        height: 300px;
+    }
+
+}
