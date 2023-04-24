@@ -13,13 +13,13 @@ const Servicos = () => {
           <p className={styles.frase}>Estamos prontos para lhe atender desde o projeto, até a publicação de seus aplicativos, nas lojas ou na internet.</p>
           <div className={styles.serviceContainer}>
               <article className={styles.serviceCard}>
-                <MdPhoneAndroid size={100}/>
+                <MdPhoneAndroid className={styles.serviceIcon} />
                 <h5 className={styles.serviceTitle}>Desenvolvimento Móvel</h5> 
                 <p className={styles.serviceDescription}>Criamos o seu aplicativo para Android ou para Iphone e o publicamos nas lojas de aplicativos.</p> 
               </article>
 
               <article className={styles.serviceCard}>
-                <BsBrowserChrome size={100}/>
+                <BsBrowserChrome className={styles.serviceIcon} />
                 <h5 className={styles.serviceTitle}>Desenvolvimento Web</h5> 
                 <p className={styles.serviceDescription}>Desenvolvemos o seu website, landing page, loja virtual ou o seu aplicativo web.</p> 
               </article>
