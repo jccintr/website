@@ -1,7 +1,6 @@
 import React from 'react'
 import styles from './styles.module.css';
 import { MdPhoneAndroid } from "react-icons/md";
-import { GoDeviceDesktop } from "react-icons/go";
 import { BsBrowserChrome } from "react-icons/bs";
 
 
