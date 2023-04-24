@@ -12,6 +12,7 @@ const Navbar = () => {
         <li className={styles.links}>Serviços</li>
         <li className={styles.links}>Portfolio</li>
         <li className={styles.links}>Tecnologias</li>
+        <li className={styles.links}>Clientes</li>
         <li className={styles.links}>Contato</li>
       </ul>
       <button className={styles.mobilemenuicon} onClick={()=>setShowMenuMobile(!showMenuMobile)}>
