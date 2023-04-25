@@ -10,7 +10,7 @@ import tripsun from '../../assets/logo-tripsun.png';
 
 const Clientes = () => {
   return (
-    <section id="tecnologias">
+    <section id="clientes">
         <div className={styles.container}>
           <h2 className={styles.title}>Nossos Clientes</h2>
           <p className={styles.frase}>Alguns de nossos clientes no Brasil e no exterior.</p>

@@ -11,7 +11,7 @@
 
 .title {
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
     border-bottom: 5px solid #00828c;
     margin-bottom: 1rem;
    
@@ -50,7 +50,7 @@
   }
 
   .serviceTitle {
-    font-size: 30px;
+    font-size: 26px;
     font-weight: bold;
     width: 100%;
     text-align: center;
@@ -67,7 +67,7 @@
 @media screen and (max-width:780px){
 
     .title {
-        font-size: 30px;
+        font-size: 24px;
     }
 
     .frase {
@@ -89,7 +89,7 @@
       }
 
       .serviceTitle {
-        font-size: 26px;
+        font-size: 22px;
      }
 
       .serviceDescription {
