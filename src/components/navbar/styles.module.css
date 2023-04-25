@@ -28,6 +28,12 @@
     padding: 10px 20px;
     cursor: pointer;
 }
+.links:hover {
+    border-radius: 10px;
+    background-color: rgba(255,255,255,.7);
+    color: #00828c;
+   
+}
 .mobilemenuicon {
     display: none;
 }
@@ -60,6 +66,12 @@
     padding: 32px;
     transition: all 0.5s ease;
 }
+.links:hover {
+    border-radius: 0;
+   
+   
+}
+
 .mobilemenuicon {
     display: block;
     position: absolute;

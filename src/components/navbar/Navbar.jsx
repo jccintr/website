@@ -10,7 +10,7 @@ const Navbar = () => {
       <h3 className={styles.logo}>Integra Apps</h3>
       <ul  className={showMenuMobile ? styles.navlinksmobile : styles.navlinks}>
         <li className={styles.links}>Serviços</li>
-        <li className={styles.links}>Portfolio</li>
+        <li className={styles.links}>Portfólio</li>
         <li className={styles.links}>Tecnologias</li>
         <li className={styles.links}>Clientes</li>
         <li className={styles.links}>Contato</li>
