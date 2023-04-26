@@ -3,6 +3,9 @@ import styles from './styles.module.css';
 import gondomar from '../../assets/portfolio/gondomar.png';
 import paladar from '../../assets/portfolio/lanchonete-paladar.png';
 import jb from '../../assets/portfolio/distribuidora-jb.png';
+import absentor from '../../assets/portfolio/absentor.png';
+import tripsun from '../../assets/portfolio/tripsun.png';
+
 
 
 const Portfolio = () => {
@@ -16,6 +19,8 @@ const Portfolio = () => {
                 <img className={styles.logo} src={gondomar} alt="" />
                 <img className={styles.logo} src={jb} alt="" />
                 <img className={styles.logo} src={paladar} alt="" />
+                <img className={styles.logo} src={absentor} alt="" />
+                <img className={styles.logo} src={tripsun} alt="" />
              
                 
           </div>
