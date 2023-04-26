@@ -5,6 +5,7 @@ import paladar from '../../assets/portfolio/lanchonete-paladar.png';
 import jb from '../../assets/portfolio/distribuidora-jb.png';
 import absentor from '../../assets/portfolio/absentor.png';
 import tripsun from '../../assets/portfolio/tripsun.png';
+import grupodragao from '../../assets/portfolio/grupo-dragao.png';
 
 
 
@@ -21,6 +22,7 @@ const Portfolio = () => {
                 <img className={styles.logo} src={paladar} alt="" />
                 <img className={styles.logo} src={absentor} alt="" />
                 <img className={styles.logo} src={tripsun} alt="" />
+                <img className={styles.logo} src={grupodragao} alt="" />
              
                 
           </div>

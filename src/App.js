@@ -6,6 +6,7 @@ import Navbar from './components/navbar/Navbar';
 import Portfolio from './components/portfolio/Portfolio';
 import Servicos from './components/servicos/Servicos';
 import Tecnologias from './components/tecnologias/Tecnologias';
+import Contato from './components/contato/Contato';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Portfolio/>
       <Tecnologias/>
       <Clientes/>
+      <Contato/>
    </>
   );
 }
