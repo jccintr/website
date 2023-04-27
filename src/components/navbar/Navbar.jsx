@@ -7,7 +7,7 @@ const Navbar = () => {
 
   return (
     <nav className={styles.navbar}>
-      <h1 className={styles.logo}>Integra Apps</h1>
+      <h1 className={styles.logo}><span className={styles.logoSpan}>In</span>tegra Apps</h1>
       <ul  className={showMenuMobile ? styles.navlinksmobile : styles.navlinks}>
         <a href="#servicos"><li className={styles.links}>Serviços</li></a>
         <a href="#portfolio"><li className={styles.links}>Portfólio</li></a>

@@ -7,6 +7,9 @@
 .logo {
     font-size: 30px;
 }
+.logoSpan{
+    color:black
+}
 .navbar {
   display: flex;
   justify-content: space-around;

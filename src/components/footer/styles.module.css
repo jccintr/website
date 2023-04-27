@@ -2,11 +2,17 @@
     padding-top: 10px;
     padding-left: 5px;
     padding-right: 5px;
+    padding-bottom: 10px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     flex-direction: column;
     
     background-color:#00828c;
-    height: 300px;
+    height: 100px;
+}
+
+.text {
+    color: white;
+    font-size: 16px;
 }
