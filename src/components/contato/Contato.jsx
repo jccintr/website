@@ -1,7 +1,10 @@
 import React, {useState} from 'react'
 import styles from './styles.module.css';
+import emailjs from '@emailjs/browser';
 
-
+//service_kr87iur  ==> server id
+//template_0woselp  => template id
+//9Fk204d4daU3I1Y6n ==> public key
 
 
 const Contato = () => {
@@ -14,7 +17,29 @@ const Contato = () => {
 
     const onEnviar = (e) => {
         e.preventDefault();
-        alert('form enviado');
+       // alert('form enviado');
+
+
+     const templateParams = {
+        from_name: nome,
+        from_email: email,
+        from_phone: telefone,
+        message: mensagem
+     }
+
+     emailjs.send('service_kr87iur', 'template_0woselp', templateParams,'9Fk204d4daU3I1Y6n')
+    .then(function(response) {
+       console.log('SUCCESS!', response.status, response.text);
+       setNome('');
+       setEmail('');
+       setTelefone('');
+       setMensagem('');
+       alert('Sua mensagem foi enviada. Em breve entraremos em contato.')
+    }, function(error) {
+       console.log('FAILED...', error);
+       alert("Houve um problema ao enviar a sua mensagem. Tente novamente por favor.")
+    });
+
     }
 
 
