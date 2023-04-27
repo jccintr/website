@@ -12,6 +12,13 @@ const Contato = () => {
     const [mensagem,setMensagem] = useState('');
 
 
+    const onEnviar = (e) => {
+        e.preventDefault();
+        alert('form enviado');
+    }
+
+
+
   return (
 
     <section id="contato">
@@ -19,7 +26,7 @@ const Contato = () => {
           <h2 className={styles.title}>Contato</h2>
           <p className={styles.frase}>Você pode entrar com contato conosco utilizando o formulário abaixo.</p>
           
-            <form className={styles.form}>
+            <form className={styles.form} onSubmit={onEnviar}>
                 <h2 className={styles.formTitle}>Formulário para Contato</h2>
                 <label className={styles.label} for="nome">Nome:</label>
                 <input 
