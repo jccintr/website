@@ -36,9 +36,10 @@
     margin-top: 20px;
 }
 .formTitle {
-   width: 100%;
-   text-align: center;
-   color: white;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 22px;
 }
 
 .label {
@@ -82,6 +83,38 @@
     .frase {
      font-size: 16px;
     }
+
+    .form {
+       
+        width: 95%;
+        
+        
+        padding: 20px;
+       
+    }
+
+    .formTitle {
+        
+        font-size: 16px;
+    }
+
+    .label {
+       
+        font-size: 14px;
+      }
+
+      .input {
+       
+        font-size: 14px;
+        height: 40px;
+       
+        
+      }
+      .textArea {
+       
+        font-size: 14px;
+        
+      }
     
     
 }
