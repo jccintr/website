@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import styles from './styles.module.css';
 import emailjs from '@emailjs/browser';
+import {toast} from 'react-toastify';
 
 //service_kr87iur  ==> server id
 //template_0woselp  => template id
@@ -30,14 +31,16 @@ const Contato = () => {
      emailjs.send('service_kr87iur', 'template_0woselp', templateParams,'9Fk204d4daU3I1Y6n')
     .then(function(response) {
        console.log('SUCCESS!', response.status, response.text);
+       toast.success('Obrigado por entrar em contato conosco. Em breve responderemos a sua mensagem.');
        setNome('');
        setEmail('');
        setTelefone('');
        setMensagem('');
-       alert('Sua mensagem foi enviada. Em breve entraremos em contato.')
+       //alert('Sua mensagem foi enviada. Em breve entraremos em contato.')
     }, function(error) {
        console.log('FAILED...', error);
-       alert("Houve um problema ao enviar a sua mensagem. Tente novamente por favor.")
+       toast.error("Houve um problema ao enviar a sua mensagem. Tente novamente por favor.");
+      // alert("Houve um problema ao enviar a sua mensagem. Tente novamente por favor.")
     });
 
     }
